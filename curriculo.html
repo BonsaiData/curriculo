@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículo - Gabriel Araujo</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm 16mm 14mm 16mm;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: #111;
+      line-height: 1.35;
+      font-size: 9.5pt;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 16pt;
+      font-weight: 700;
+      margin: 0 0 4px 0;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .contact-line {
+      font-size: 8.5pt;
+      color: #222;
+    }
+    .contact-line a {
+      color: #111;
+      text-decoration: none;
+    }
+    h2 {
+      font-size: 10pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-bottom: 1px solid #111;
+      padding-bottom: 2px;
+      margin: 10px 0 6px 0;
+      color: #000;
+    }
+    p {
+      margin: 0 0 5px 0;
+      text-align: justify;
+    }
+    ul {
+      margin: 0 0 6px 0;
+      padding-left: 18px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      font-size: 9pt;
+      margin-top: 5px;
+    }
+    .entry-sub {
+      font-style: italic;
+      font-size: 8.5pt;
+      color: #333;
+      margin-bottom: 3px;
+    }
+    .skills-grid {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .skills-grid li {
+      margin-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gabriel Araujo</h1>
+    <div class="contact-line">
+      São Paulo, SP (Disponível para Presencial, Híbrido ou Remoto) | (11) 98269-4919 | gabrielcedraschi@gmail.com<br>
+      linkedin.com/in/gabriel-araujo-770728378 | github.com/BonsaiData
+    </div>
+  </header>
+
+  <h2>Objetivo Profissional</h2>
+  <p>
+    Estudante de Análise e Desenvolvimento de Sistemas (1º semestre) no Instituto Presbiteriano Mackenzie, em busca de estágio em Desenvolvimento de Software com foco em Backend (Java / Python). Perfil com base prévia em rotinas operacionais e administrativas, direcionado à resolução pragmática de problemas de negócio, integridade de dados e aplicação de fundamentos da computação.
+  </p>
+
+  <h2>Habilidades Técnicas</h2>
+  <ul class="skills-grid">
+    <li><strong>Linguagens:</strong> Java (Temurin / JDK), Python, SQL. Conhecimento prático em HTML5 e CSS3 para interfaces web estáticas.</li>
+    <li><strong>Backend & Frameworks:</strong> Spring Boot, Spring Security, Maven, Hibernate/JPA, APIs REST.</li>
+    <li><strong>Bancos de Dados:</strong> PostgreSQL, SQLite, MySQL, conceitos de Modelagem Relacional e consultas estruturadas.</li>
+    <li><strong>Engenharia de Dados:</strong> Pandas, NumPy, pipelines de ETL básicos, manipulação de arquivos e dados tabulares.</li>
+    <li><strong>Ambientes & Ferramentas:</strong> Git, GitHub, Docker (containerização básica), Linux (Mint / terminal Bash), VS Code, Streamlit.</li>
+    <li><strong>Idiomas:</strong> Inglês Intermediário (B2 - Leitura técnica e compreensão fluida de documentação).</li>
+  </ul>
+
+  <h2>Projetos Práticos (Proof of Work)</h2>
+
+  <div class="entry-header">
+    <span>Auth API & Token Validator | Microsserviço de Autenticação</span>
+  </div>
+  <div class="entry-sub">Java | Spring Boot | Maven | Spring Security | JWT (Auth0) | Hibernate/JPA | SQLite | Git</div>
+  <ul>
+    <li>Construção de API REST voltada ao fluxo de autenticação e emissão de tokens JWT para validação de sessões stateless.</li>
+    <li>Configuração de filtros de segurança com Spring Security para proteção de rotas privadas e validação de requisições via Spring Validation.</li>
+    <li>Estruturação da persistência com Hibernate JPA sobre SQLite, tratando incompatibilidades de dialetos locais por meio do <code>hibernate-community-dialects</code>.</li>
+    <li>Arquitetura em camadas desacoplada visando facilidade de migração da camada de dados para PostgreSQL.</li>
+    <li>Gerenciamento de dependências e automação de build utilizando Apache Maven.</li>
+  </ul>
+
+  <div class="entry-header">
+    <span>Olympic Analytics | Pipeline & Análise Exploratória de Dados</span>
+  </div>
+  <div class="entry-sub">Python | SQL | PostgreSQL | Pandas | Streamlit | Docker | Git</div>
+  <ul>
+    <li>Implementação de pipeline de ETL para ingestão, saneamento e padronização de base de dados histórica.</li>
+    <li>Armazenamento e modelagem relacional em PostgreSQL, com criação de consultas SQL para extração de métricas de participação.</li>
+    <li>Desenvolvimento de painel web analítico em Streamlit para exploração visual dos dados.</li>
+    <li>Conteinerização do ambiente com Docker para garantir execução reprodutível em qualquer máquina.</li>
+  </ul>
+
+  <div class="entry-header">
+    <span>Portfólio Pessoal & Páginas Web Estáticas</span>
+  </div>
+  <div class="entry-sub">HTML5 | CSS3 | GitHub Pages | Git</div>
+  <ul>
+    <li>Desenvolvimento e publicação de páginas web estruturadas em HTML semântico e estilização pura com CSS responsivo.</li>
+    <li>Hospedagem e versionamento direto no GitHub Pages (bonsaidata.github.io/meuCurriculo).</li>
+  </ul>
+
+  <h2>Experiência Profissional</h2>
+
+  <div class="entry-header">
+    <span>Autônomo | Projetos de Automação & Análise de Dados</span>
+    <span>Abr/2026 – Atual</span>
+  </div>
+  <div class="entry-sub">Python | SQL | PostgreSQL | Pandas | Streamlit</div>
+  <ul>
+    <li>Criação de scripts em Python para tratamento de tabelas e automação de rotinas de dados operacionais.</li>
+    <li>Montagem de visualizações interativas em Streamlit para suporte a tomadas de decisão.</li>
+    <li>Versionamento de código e documentação técnica dos repositórios via Git e GitHub.</li>
+  </ul>
+
+  <div class="entry-header">
+    <span>Academia Gaviões 24h | Suporte Operacional e Comercial</span>
+    <span>Fev/2026 – Atual</span>
+  </div>
+  <div class="entry-sub">Sistemas EVO e SULTS | Excel | Controle de Informações</div>
+  <ul>
+    <li>Atendimento a clientes e esclarecimento de fluxos operacionais da unidade.</li>
+    <li>Conferência e higienização contínua de cadastros no sistema para mitigar erros em dados contratuais.</li>
+    <li>Acompanhamento de relatórios e planilhas internas de controle de fluxo e retenção de alunos.</li>
+  </ul>
+
+  <div class="entry-header">
+    <span>Cedraschi & Amorim | Assistente Administrativo</span>
+    <span>Jun/2018 – Set/2019</span>
+  </div>
+  <div class="entry-sub">Rotinas Administrativas | Gestão de Documentos | Excel</div>
+  <ul>
+    <li>Organização, digitalização e controle de fluxo de documentos físicos e digitais.</li>
+    <li>Alimentação e manutenção de planilhas de controle interno de prazos e tarefas.</li>
+    <li>Pesquisa e consolidação de dados preliminares para suporte às rotinas do escritório.</li>
+  </ul>
+
+  <div class="entry-header">
+    <span>Dona Deôla | Atendente de Operações</span>
+    <span>Jul/2025 – Jan/2026</span>
+  </div>
+  <div class="entry-sub">Atendimento ao Cliente | Operação de Caixa</div>
+  <ul>
+    <li>Atendimento direto ao público em ambiente de ritmo acelerado e alta demanda.</li>
+    <li>Abertura, fechamento e conferência de valores de caixa com disciplina operacional.</li>
+  </ul>
+
+  <h2>Formação Acadêmica</h2>
+  <div class="entry-header">
+    <span>Universidade Presbiteriana Mackenzie</span>
+    <span>Previsão de Conclusão: Dez/2028</span>
+  </div>
+  <div class="entry-sub">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) — 1º Semestre (Noturno)</div>
+
+  <h2>Cursos & Certificações</h2>
+  <ul>
+    <li><strong>Java COMPLETO Programação Orientada a Objetos:</strong> Nélio Alves – Udemy (Em andamento)</li>
+    <li><strong>Introduction to Python:</strong> Coursera (Concluído em Jun/2026)</li>
+    <li><strong>Introdução à Inovação e Tecnologia:</strong> Open Academy Mackenzie</li>
+    <li><strong>Pensamento Computacional:</strong> Open Academy Mackenzie (Em andamento)</li>
+  </ul>
+
+</body>
+</html>
